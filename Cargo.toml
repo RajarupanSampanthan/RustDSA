@@ -1,6 +1,4 @@
-[package]
-name = "dsa"
-version = "0.1.0"
-edition = "2024"
 
-[dependencies]
+[workspace]
+members = ["algo", "bench","ds"]
+resolver = "3"
